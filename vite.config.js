@@ -7,6 +7,10 @@ const root = path.resolve(__dirname, 'src')
 const outDir = path.resolve(__dirname, 'docs')
 
 const pages = {
+    main: {
+    file: 'index.html',
+    chunks: ['/javascripts/allStyle.js']
+  },
   test: {
     file: 'pages/test.html',
     chunks: ['/javascripts/allStyle.js']
@@ -17,6 +21,18 @@ const pages = {
   },
   habits: {
     file: 'pages/habits.html',
+    chunks: ['/javascripts/allStyle.js']
+  }
+  about: {
+    file: 'pages/about.html',
+    chunks: ['/javascripts/allStyle.js']
+  }
+  social-scrolling: {
+    file: 'pages/habits/social-scrolling.html',
+    chunks: ['/javascripts/allStyle.js']
+  }
+  why-the-brain-chooses-pleasure-now: {
+    file: 'pages/mechanisms/why-the-brain-chooses-pleasure-now.html',
     chunks: ['/javascripts/allStyle.js']
   }
 }
