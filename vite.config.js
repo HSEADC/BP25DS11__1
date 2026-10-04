@@ -22,16 +22,16 @@ const pages = {
   habits: {
     file: 'pages/habits.html',
     chunks: ['/javascripts/allStyle.js']
-  }
+  },
   about: {
     file: 'pages/about.html',
     chunks: ['/javascripts/allStyle.js']
-  }
-  social-scrolling: {
+  },
+  'social-scrolling': {
     file: 'pages/habits/social-scrolling.html',
     chunks: ['/javascripts/allStyle.js']
-  }
-  why-the-brain-chooses-pleasure-now: {
+  },
+  'why-the-brain-chooses-pleasure-now': {
     file: 'pages/mechanisms/why-the-brain-chooses-pleasure-now.html',
     chunks: ['/javascripts/allStyle.js']
   }
